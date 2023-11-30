@@ -1,0 +1,32 @@
+body{
+    background-color: #9EB1BB;
+    margin: 0;
+    .header{
+        display: flex;
+        justify-content: center;
+        font-size: 20pt;
+        margin-top: 10%;
+    }
+    .second{
+        position: relative;
+        width: 50%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin-left: 35%;
+        .signUp{
+            position: absolute;
+            bottom: 10%;
+        }
+    }
+    .footer{
+        width: 50%;
+        height: 100px;
+        margin-top: 240px;
+        position: relative;
+        .login{
+            position: absolute;
+            left: -80px;
+        }
+    }
+}
